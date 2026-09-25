@@ -1,0 +1,26 @@
+{
+  "name": "recipe-generator-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Recipe Generator from Ingredients using LLM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "keywords": [
+    "recipe",
+    "ai",
+    "llm",
+    "gemini",
+    "food",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
